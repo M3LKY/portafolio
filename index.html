@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="nav.css" />
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+  </head>
+  <body>
+    <div class="overlay-navigation">
+      <nav role="navigation">
+        <ul>
+          <li>
+            <a href="#" id="toggleButton" data-content="The beginning">Home</a>
+          </li>
+          <li><a href="#" data-content="Curious?">About</a></li>
+          <li><a href="#" data-content="I got game">Skills</a></li>
+          <li><a href="#" data-content="Only the finest">Works</a></li>
+          <li><a href="#" data-content="Don't hesitate">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <section class="home">
+      <div class="open-overlay">
+        <img src="./images/fire.gif" class="images" alt="" />
+      </div>
+    </section>
+
+    <div class="testimonial-grid">
+      <div class="grid-item one">
+        <img src="./images/pic.gif" alt="" />
+      </div>
+
+      <div class="grid-item two">
+        <img src="./images/assets/projects/tech.png" alt="" />
+
+      </div>
+      <div class="grid-item three">
+        <img src="./images/assets/projects/home.png" alt="" />
+
+        <!-- <img src="./images/cpp.gif" alt="" /> -->
+      </div>
+      <div class="grid-item four">
+        <img src="./images/hesen.png" alt="" style="width: 250px; height: 250px" />       
+      </div>
+      <div class="grid-item five">
+        <img src="./images/SsQa.gif" alt="" />
+
+      </div>
+      <div class="grid-item six">
+        <img src="./images/assets/projects/pizza.png" alt="" />
+      </div>
+      <div class="grid-item seven">
+        <img src="./images/cpp.gif" alt="" />
+      </div>
+      <div class="grid-item eight">
+        <img src="./images/tet.gif" alt="" />
+      </div>
+      <div class="grid-item nine">
+        <img src="./images/pong_1.gif" alt="" />
+      </div>
+      <div class="grid-item ten">
+        <img src="./images/snak.gif" alt="" />
+      </div>
+      <div class="grid-item eleven">
+        <div class="image-container">
+          <!-- <img src="./images/Screenshot 2023-08-26 074640.png" alt="" /> -->
+        </div>
+      </div>
+      
+      <div class="grid-item twelve">
+        <form action="https://formsubmit.co/melquisedecgonzalez74@gmail.com" method="POST" class="form-container">
+          <!-- <div class="title">
+            <p class="title-text">Contact</p>
+          </div> -->
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://m3lky.github.io/cheesy-crust">
+          <input type="hidden" name="_subject" value="New submission">
+          <input class="input-common name-input" type="text" placeholder="Name" name="name">
+          <input class="input-common email-input" type="email" placeholder="Email" name="email">
+          <textarea class="input-common message-input" name="message" rows="10" placeholder="Message"></textarea>
+          <button class="submit-btn" type="submit">
+            Get in touch
+          </button>
+        </form>
+        
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <script src="./nav.js"></script>
+  </body>
+</html>
