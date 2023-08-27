@@ -173,7 +173,7 @@ DOS CUADROS POR LINEA
   'nine nine ten'
   'eleven eleven twelve';
   padding-block: 2rem;
-  width: min(95%, 70rem);
+  width: min(50%, 70rem);
   margin-inline: auto;
 }
 
@@ -248,14 +248,25 @@ DOS CUADROS POR LINEA
   .testimonial-grid {
     grid-template-areas:
     'one one two'
-    'three four two'
-    'three five six'
-    'eleven eleven six'
-    'eleven eleven eight'
-    'twelve seven eight'
-    'twelve ten nine';
+    'one one three'
+    'five four four'
+    'six eleven eleven'
+    'ten ten eight'
+    'ten ten seven'
+    'twelve twelve nine';
   }
 }
+/*
+grid-template-areas:
+    'header header sidebar'
+    'content content sidebar'
+    'content content sidebar'
+    'footer footer sidebar'
+    'footer footer extras'
+    'bottomnav mainnav extras'
+    'bottomnav mainnav extras';
+
+*/
 
 /* Assuming you have already included Tailwind CSS in your project */
 
